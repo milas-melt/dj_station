@@ -19,20 +19,20 @@ This project consists of a small, portable DJ mixer powered by a 9V dc external 
 
 ## Parts:
 
-P1,P2,P4,P5\_**\_22K Dual gang Log Potentiometers
-P3****\_\_\_******22K Dual gang Linear Potentiometer
-P6******\_******22K Log Potentiometer
-R1 to R10**\_\_**30K 1/4W 1% or 2% tolerance Resistors
-R11******\_******1K 1/4W Resistor
-C1****\_\_\_****2200µF 25V Electrolytic Capacitor
-D1******\_******3mm. or 6mm. red LED
-J1 to J10**\_\_**RCA audio input sockets
-J11****\_\_\_\_****6mm. or 3.5mm. Stereo Jack socket
-J12****\_\_\_\_****6mm. or 3.5mm. Mono Jack socket
-J13****\_\_\_\_****Mini DC Power Socket
-SW1,SW2**\_\_\_\_**DPDT toggle or slide Switches
-SW3****\_\_\_\_****2 poles 3 ways Rotary Switch
-SW4****\_\_\_\_****SPST toggle or slide Switch
+- P1,P2,P4,P5: 22K Dual gang Log Potentiometers
+- : P3: 22K Dual gang Linear Potentiometer
+- P6: 22K Log Potentiometer
+- R1 to R10: 30K 1/4W 1% or 2% tolerance Resistors
+- R11: 1K 1/4W Resistor
+- C1: 2200µF 25V Electrolytic Capacitor
+- D1: 3mm. or 6mm. red LED
+- J1 to J10: RCA audio input sockets
+- J11: 6mm. or 3.5mm. Stereo Jack socket
+- J12: 6mm. or 3.5mm. Mono Jack socket
+- J13: Mini DC Power Socket
+- SW1,SW2: DPDT toggle or slide Switches
+- SW3: 2 poles 3 ways Rotary Switch
+- SW4: SPST toggle or slide Switch
 
 ## Circuit description:
 
@@ -50,19 +50,19 @@ A stereo Headphone Amplifier with cue gain control is provided for monitoring pu
 
 ## Parts:
 
-R1,R10****\_\_****2K2 1/4W Resistors
-R2,R3,R11,R12_100K 1/4W Resistors
-R4,R13****\_\_****1K 1/4W Resistors
-R5,R6,R14,R15**18K 1/4W Resistors
-R7,R16**\_\_****390K 1/4W Resistors
-R8****\_\_\_\_****220R 1/4W Resistor
-R9,R17****\_****10K 1/4W Resistors
-C1,C5,C6,C10**\_22µF 25V Electrolytic Capacitors
-C2,C7**\_\_\_\_****47µF 25V Electrolytic Capacitors
-C3,C8****\_\_\_****2n2 63V Polyester or Polystyrene low tolerance Capacitors
-C4,C9****\_\_****10nF 63V Polyester or Polystyrene low tolerance Capacitors
-C11****\_\_\_****100µF 25V Electrolytic Capacitor
-IC1****\_\_****LS4558 Dual High Performance Op-Amp
+- R1,R10: 2K2 1/4W Resistors
+- R2,R3,R11,R12: 100K 1/4W Resistors
+- R4,R13: 1K 1/4W Resistors
+- R5,R6,R14,R15: 18K 1/4W Resistors
+- R7,R16: 390K 1/4W Resistors
+- R8: 220R 1/4W Resistor
+- R9,R17: 10K 1/4W Resistors
+- C1,C5,C6,C10: 22µF 25V Electrolytic Capacitors
+- C2,C7: 47µF 25V Electrolytic Capacitors
+- C3,C8: 2n2 63V Polyester or Polystyrene low tolerance Capacitors
+- C4,C9: 10nF 63V Polyester or Polystyrene low tolerance Capacitors
+- C11: 100µF 25V Electrolytic Capacitor
+- IC1: LS4558 Dual High Performance Op-Amp
 
 ## Circuit description:
 
@@ -82,12 +82,12 @@ A more strict RIAA equalization curve will be obtained if low tolerance componen
 
 ## Parts:
 
-R1******\_\_******1M2 1/4W Resistor
-R2******\_\_******5K6 1/4W Resistor
-R3******\_\_******1K 1/4W Resistor
-C1,C3****\_\_\_****4µ7 63V Electrolytic Capacitors
-C2****\_\_\_\_****100µF 25V Electrolytic Capacitor
-Q1****\_\_\_\_****BC550C 45V 100mA Low noise High gain NPN
+- R1: 1M2 1/4W Resistor
+- R2: 5K6 1/4W Resistor
+- R3: 1K 1/4W Resistor
+- C1,C3: 4µ7 63V Electrolytic Capacitors
+- C2: 100µF 25V Electrolytic Capacitor
+- Q1: BC550C 45V 100mA Low noise High gain NPN
 
 ## Circuit description:
 
@@ -101,12 +101,12 @@ This circuit module, based on a very simple, single transistor amplifier, featur
 
 ## Parts:
 
-R1,R2,****\_****68K 1/4W Resistors
-R3,R4****\_****120K 1/4W Resistors
-C1,C2,C4,C6,C8**4µ7 63V Electrolytic Capacitors
-C3,C7**\_\_\_\_****10pF 63V Ceramic Capacitors
-C5****\_\_\_\_****100µF 25V Electrolytic Capacitor
-IC1****\_\_\_****TL062 Low current BIFET Dual Op-Amp
+- R1,R2: 68K 1/4W Resistors
+- R3,R4: 120K 1/4W Resistors
+- C1,C2,C4,C6,C8: 4µ7 63V Electrolytic Capacitors
+- C3,C7: 10pF 63V Ceramic Capacitors
+- C5: 100µF 25V Electrolytic Capacitor
+- IC1: TL062 Low current BIFET Dual Op-Amp
 
 ## Circuit description:
 
@@ -120,12 +120,12 @@ Straightforward virtual-earth mixer-amplifier stage based on the very low curren
 
 ## Parts:
 
-R1,R5****\_\_\_****18K 1/4W Resistors
-R2,R3,R4,R6**\_**68K 1/4W Resistors
-C1,C2,C6****\_****4µ7 25V Electrolytic Capacitors
-C3,C7****\_\_\_****22pF 50V Ceramic Capacitors
-C4,C5,C8**\_\_\_**220µF 25V Electrolytic Capacitors
-IC1****\_\_\_****NE5532 Low noise Dual Op-amp
+- R1,R5: 18K 1/4W Resistors
+- R2,R3,R4,R6: 68K 1/4W Resistors
+- C1,C2,C6: 4µ7 25V Electrolytic Capacitors
+- C3,C7: 22pF 50V Ceramic Capacitors
+- C4,C5,C8: 220µF 25V Electrolytic Capacitors
+- IC1: NE5532 Low noise Dual Op-amp
 
 ## Circuit description:
 
